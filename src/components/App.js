@@ -14,7 +14,6 @@ const App = () => {
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
         alt="nasaLogo"
       />
-      {console.log(searchResults)}
       <Search setSearchResults={setSearchResults} />
       <SearchResults />
     </div>
