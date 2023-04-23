@@ -1,0 +1,7 @@
+@use '../utilities/mixins';
+@use '../utilities/functions';
+
+body {
+    @include mixins.text-base;
+    background: functions.color('background');
+}

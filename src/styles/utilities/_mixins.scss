@@ -1,0 +1,10 @@
+@use './variables';
+@use './functions';
+
+@mixin text-base {
+    font-family: variables.$font-family;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: functions.color('foreground');
+  }
